@@ -42,7 +42,7 @@
         <label for="q4">
           Q4: What kinds of websites would you like to build someday?
           <br />
-          <textarea cols="70" rows="8" id="q4" placeholder="Type your response here."></textarea>
+          <textarea cols="70" rows="8" id="q4" v-model="q4" placeholder="Type your response here."></textarea>
           
         </label>
       </p>
